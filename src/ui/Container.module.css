@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 125rem;
+  height: 72rem;
+  background-color: #cccccc;
+  border-radius: 5%;
+}
+
+.window {
+  padding: 4.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4.8rem;
+  margin-top: 1.6rem;
+}

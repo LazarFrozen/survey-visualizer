@@ -1,0 +1,16 @@
+.error_layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: auto;
+}
+
+.heading_3 {
+  font-size: 2.2rem;
+}
+
+.error_image {
+  width: 30rem;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SUSE Mono", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+label {
+  font-size: 1.6rem;
+}
+
+select {
+  width: 55rem;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.6rem;
+}
