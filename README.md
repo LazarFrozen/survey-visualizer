@@ -1,16 +1,43 @@
-# React + Vite
+# Survey Visualizer integration (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React application that visualizes data through Pie charts and Bar charts, allowing users to explore categories, difficulties, and question distributions. The app demonstrates data fetching, state management, error handling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Fetch trivia questions dynamically from an external API.
+* Filter questions by category.
+* Interactive Pie and Bar charts using Recharts.
+* Loading spinner while data is being fetched.
+* Error component that displays when the API fails.
 
-## React Compiler
+## Requirements
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Node.js 18+
+* npm
+* React 18+
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+``` 
+git clone https://github.com/LazarFrozen/survey-visualizer.git
+cd survey-visualizer
+```
+
+2. Install dependencies:
+```
+npm install
+```
+
+3. Run the development server:
+```
+npm run dev
+```
+
+## Technologies
+
+* React
+* CSS Modules
+* ReCharts (library)
+* React Spinners (library)
+
